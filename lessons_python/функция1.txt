@@ -1,0 +1,13 @@
+a = float(input())
+
+def f(g):
+    if g<=-2:
+        return (1-(g+2)*(g+2))
+    elif (-2< g) and (g <= 2):
+        return -(g/2)
+    else :
+        return (g-2)*(g-2)+1
+c = f(a)    
+    
+print(c)   
+   

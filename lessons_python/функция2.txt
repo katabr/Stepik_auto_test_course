@@ -1,0 +1,29 @@
+a = float(input())
+
+def f(g):
+    if g<=-2:
+        return (1-(g+2)*(g+2))
+    elif (-2< g) and (g <= 2):
+        return -(g/2)
+    else :
+        return (g-2)*(g-2)+1
+c = f(a)    
+    
+print(c)   
+   
+  
+def modify_list(l):
+    len1 = len(l)
+    for i in range len1
+
+  
+lst = [1, 2, 3, 4, 5, 6]
+print(modify_list(lst))  # None
+print(lst)               # [1, 2, 3]
+modify_list(lst)
+print(lst)               # [1]
+
+lst = [10, 5, 8, 3]
+modify_list(lst)
+print(lst)               # [5, 4]   
+   
